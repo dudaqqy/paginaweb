@@ -1,1 +1,9 @@
+body {
+    color: rgb(233, 98, 165);
+    background: rgb(248, 247, 247);
+}
 
+header{
+    border: solid 2px hwb(350 5% 5%) 
+}
+ 

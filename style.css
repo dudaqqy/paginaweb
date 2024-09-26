@@ -1,9 +1,45 @@
-body {
+style.css body {
     color: rgb(233, 98, 165);
-    background: rgb(248, 247, 247);
+    background: rgb(243, 197, 214);
 }
 
-header{
-    border: solid 2px hwb(350 5% 5%) 
+header {
+    border-bottom: solid 2px hwb(350 83% 1%);
+    padding: 50px;
+    font-size: 30px
 }
- 
+
+.chamada {
+    background: rgb(241, 171, 197);
+    padding-bottom: 30px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 20px;
+}
+
+img {
+    height: 200px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+}
